@@ -1,6 +1,15 @@
 /* nav ul{background-color: aqua;}
 #navigation {background-color: pink;} */
 body{background-color: #f5cb59f6;}
-.Redflower{border-radius: 50%;}
-.team{border-radius:60%; height:300px;}
-h1 {background-color: white;}
+.Redflower{border-radius: 50%;
+          border: 5px solid #fdfcfc}
+.team {box-shadow: 2px 2px 4px rgba(0,0,0,0.4); 
+    border: 5px solid rgb(255, 252, 252);
+    border-radius:50%; 
+    height:250px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 300px;}
+h1 {background-color: white; text-align: center;}
+
