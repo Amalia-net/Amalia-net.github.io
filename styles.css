@@ -1,15 +1,92 @@
-/* nav ul{background-color: aqua;}
-#navigation {background-color: pink;} */
-body{background-color: #f5cb59f6;}
-.Redflower{border-radius: 50%;
-          border: 5px solid #fdfcfc}
-.team {box-shadow: 2px 2px 4px rgba(0,0,0,0.4); 
+nav{
+    display:fleX;
+    margin: 20px 0px 0px 0px;
+}
+
+.logo{
+    padding: 10px;
+    text-align: center;
+    border-radius: 100%;
+    border: 10px solid #fcfcfb;
+    background-color: rgb(250, 166, 184);
+    display:block
+}
+.tab{
+    list-style: none;
+    display:flex;
+}
+.tab li{ 
+    margin: 0 5px ;
+}
+.tab li a,.tab li a:visited{
+    background-color: #fdfcfc;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    height: auto;
+}
+.tab li a:hover{
+    color: red;
+}
+.Redflower{
+    
+}
+.img-wrapper{ 
+    padding: 50px;
+    margin: 50px;
+}
+.team {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4); 
     border: 5px solid rgb(255, 252, 252);
     border-radius:50%; 
     height:250px;
     display: block; 
     margin-left: auto; 
     margin-right: auto;
-    width: 300px;}
-h1 {background-color: white; text-align: center;}
+    width: 300px;
+}
+.mochi{
+    border-radius: 50%;
+    margin-right: 0cm;
+    border: 10px solid #fcfcfb;
+}
+.sushi{
+    border-radius:50%;
+    margin-right: 0.cm;
+    border: 10px solid #fcfcfc;
+}
+.origami{
+    border-radius:50%;
+    margin-right: 0cm;
+    border: 10px solid #fcfcfb;
+}
+.caligraphy{
+    border-radius:50%;
+    border: 10px solid #fffffe;
+}
+.services{
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 18%;
+    margin-right: 15%;
+}
 
+h1 {
+    background-color:white;
+    text-align: center;}
+
+.groups h1:hover{
+    color: #f4df27;
+}
+.background image, html, section {
+    background-image: url(images/pink-yellow\ grade.avif);
+    min-height: 150vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
