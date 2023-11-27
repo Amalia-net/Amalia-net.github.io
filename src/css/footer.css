@@ -1,0 +1,14 @@
+footer{
+    background-color: #264143;
+    height:200px
+}
+footer ul{
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 40px;
+    color: white; 
+}
+footer p{
+    color: white;
+    margin-left: 10px;
+}

@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0; 
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+body{
+    background-color: #eddcd9;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+/* @media(max-width:6  00px) */
