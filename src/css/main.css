@@ -2,6 +2,7 @@ main {
     display: grid;
     justify-content:center;
     padding-top: 150px;
+    min-height: 800px;
 }
 
 section{
@@ -39,16 +40,13 @@ section{
 
     
 }
-.services span a :hover{
+.services span a:hover{
    color: orange;
 
 }
-.groups ul li a :hover{
-    color: orange;
+.groups ul li a:hover{
+    color: aqua;
 }
-
-
-
 
 .services ul li img{
     border-radius: 50px 50px 0 0;
@@ -58,10 +56,6 @@ section{
     color: white;
     padding: 5px 0;
 }
-
-
-
-
 
 
 .groups ul{
